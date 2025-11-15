@@ -1,15 +1,34 @@
-To Run this app follow the below steps :
+Happy Birthday
 
-1) Go to the directory 
+A Happy Birthday animation design in CSS3, HTML5.
+
+URL: http://ayusharma.github.io/birthday/
+
+Technology Used: HTML5 CSS3 jQuery  GNU/Linux Digital Ocean as VPS GIMP
+
+# Setup
+
+## If you have python installed:
 ```
-cd happy-birthday-css-app
-
+cd Birthday
 ```
 
-2)Execute the below command to run the app {Note: Python3 will be required}
+&& 
 
 ```
-python -m http.server 8000
+python -m SimpleHTTPServer --port  8081
 ```
 
-visit http://localhost:8000 or http://127.0.0.1:8000 in your browser.
+visit http://localhost:8081 in your browser.
+
+## If you have nodejs installed
+```
+npm install
+```
+&&
+
+```
+npm run server-node
+```
+visit http://localhost:8081 in your browser.
+
